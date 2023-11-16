@@ -1,0 +1,153 @@
+.secao_avaliacoes {
+    width: 100%;
+    height: 515px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto_clientes {
+text-align: center;
+font-weight: 900;
+font-size: 48px;
+padding-right: 245px;
+padding-top: 25px;
+padding-bottom: 50px;
+color: #C1383D;
+}
+
+.cor_nossos {
+    color: #FFFFFF;
+    margin-right: 20px  ;
+}
+
+.secao_texto {
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 75px;
+    line-height: 193%;
+    max-width: 1200px;
+    
+}
+
+.avaliacao_texto {
+    margin-right: 20px;
+}
+
+.texto_nome {
+    padding-top: 25px;
+}
+
+.imagem_cliente {
+    float: left;
+}
+
+.nome_cliente {
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.avaliacao_cliente {
+    font-family: roboto;
+    position: relative;
+}
+
+.fundo_cinza {
+    position: absolute;
+    background-color:#888888;
+    width: 100vw;
+    height: 530px;
+    z-index: -1;
+    right: 815px;
+    
+
+}
+
+@media(max-width: 768px) {
+    .secao_avaliacoes {
+        height: 560px;
+
+    }
+
+    .fundo_cinza {
+        height: 609px;
+        right: 482px;
+        top: -47px;
+    }
+
+    .texto_clientes {
+        font-size: 45px;
+        padding-right: 77px;
+        padding-top: 13px;
+        padding-bottom: 32px;
+    }
+
+    .secao_texto {
+        font-size: 13px;
+        padding-bottom: 70px;
+        line-height: 197%;
+        max-width: 712px;
+        font-weight: 100;
+    }
+}
+
+@media(max-width: 576px) {
+    .fundo_cinza {
+        right: 354px;
+        top: -26px;
+    }
+
+    .texto_clientes {
+        font-size: 38px;
+        padding-right: 30px;
+        padding-top: 59px;
+        padding-bottom: 24px;
+    }
+
+    .secao_texto {
+        font-size: 11px;
+        line-height: 157%;
+        max-width: 519px;
+    }
+}
+
+@media(max-width: 992px) {
+    .fundo_cinza {
+        height: 571px;
+        right: 644px;
+        top: 84px;
+    }
+
+    .texto_clientes {
+        padding-right: 152px;
+        padding-bottom: 41px;
+        padding-top: 160px;
+    }
+
+    .secao_texto {
+        padding-bottom: 172px;
+        line-height: 152%;
+        max-width: 949px;
+    }
+}
+
+@media (max-width: 1200px ) {
+    .fundo_cinza {
+        height: 531px;
+        right: 690px;
+        top: 9px;
+    }
+
+    .texto_clientes {
+        padding-right: 201px;
+        padding-top: 50px;
+    }
+
+    .secao_texto {
+        line-height: 146%;
+        max-width: 1000px;
+    }
+}

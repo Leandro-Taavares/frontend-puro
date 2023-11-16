@@ -1,0 +1,58 @@
+.titulo_onde_encontrar {
+    font-family: Roboto;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    background-color: #C1383D;
+    padding: 12px;
+    font-size: 2.5em;
+}
+
+.onde_encontrar {
+    position: relative;
+    z-index: 1;
+}
+
+.seta {
+    height: 0;
+    width: 0;
+    border-top: 18px solid #C1383D;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    margin: 0; 
+    position: absolute;
+    left: 50%;
+    margin-left: -18px;
+    margin-top: -1px;
+}
+
+#map {
+    width: 100%;
+    filter: brightness();
+    height: 100vh;
+}
+
+@media(max-width: 768px) {
+    #map {
+        height: 33vh;
+    }
+}
+
+@media(max-width: 576px) {
+    
+    .titulo_onde_encontrar {
+        padding: 1px;
+        font-size: 1.5em;
+    }
+
+    .seta {
+        margin-top: -4px;
+    }
+}
+
+@media(max-width: 992px) {
+ .titulo_onde_encontrar {
+    padding: 9px;
+    font-size: 2.0em;
+ }
+}

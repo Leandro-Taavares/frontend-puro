@@ -1,0 +1,133 @@
+.capa_video {
+    position: relative;
+}
+
+.video_cliente {
+    width: 100%;
+}
+
+.logo_delta {
+    position: absolute;
+    left: 925px;
+    top: 1115px;
+    width: 146px;
+}
+
+.frase_sonho {
+    position: absolute;
+    font-weight: 900;
+    font-size: 48px;
+    color: #FFFFFF;
+    left: 48%;
+    bottom: 138px;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-family: roboto;
+    line-height: 38px;
+    width: 553px;
+
+}
+
+.fundo_vermelho {
+    position: absolute;
+    background-color: #C1383D;
+    width: 55%;
+    height: 140px;
+    left: 45%;
+    bottom: 98px;
+
+}
+
+.frase_sonho_vermelho {
+    color: #151515;
+}
+
+@media(max-width: 768px) {
+    .logo_delta {
+        left: 267px;
+        top: 307px;
+        width: 80px;
+    }
+
+    .frase_sonho {
+        font-size: 25px;
+        left: 294px;
+        bottom: 62px;
+        height: 65px;
+        padding-left: 100px;
+        width: 329px;
+        line-height: 28px;
+        
+    }
+
+    .fundo_vermelho {
+        width: 55%;
+        height: 74px;
+        left: 45%;
+        bottom: 57px;
+    }
+}
+
+@media(max-width: 576px) {
+    .logo_delta {
+        left: 222px;
+        top: 236px;
+        width: 67px;
+    }
+
+    .frase_sonho {
+        font-size: 19px;
+        left: 206px;
+        height: 25px;
+        padding-left: 104px;
+        width: 229px;
+        line-height: 19px;
+    }
+
+    .fundo_vermelho {
+        width: 50%;
+        height: 60px;
+        left: 50%;
+        bottom: 34px;
+    }
+}
+
+@media(max-width: 992px) {
+    .logo_delta {
+        left: 317px;
+        top: 400px;
+        width: 101px;
+    }
+
+    .frase_sonho {
+        font-size: 31px;
+        left: 42%;
+        bottom: 81px;
+        width: 408px;
+    }
+
+    .fundo_vermelho {
+        width: 58%;
+        height: 95px;
+        left: 42%;
+        bottom: 70px;
+    }
+}
+
+@media (max-width: 1200px ) {
+    .logo_delta {
+        left: 395px;
+        top: 478px;
+        width: 146px;
+    }
+
+    .frase_sonho {
+        bottom: 109px;
+        padding-left: 20px;
+    }
+
+    .fundo_vermelho {
+        height: 137px;
+        bottom: 69px;
+    }
+}
