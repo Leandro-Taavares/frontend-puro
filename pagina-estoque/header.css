@@ -1,0 +1,136 @@
+.header {
+    position: fixed;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 15px;
+    left: 25%;
+    z-index: 3;
+    height: 51.5px;
+}
+
+
+
+.menu_aberto {
+    width: 16px;
+
+}
+
+.borda_header{
+    margin-top: 78px;
+    border-top: 1px groove #3E3E3E;
+    position: fixed;
+    z-index: 2;
+    left: 25%;
+    width: 1200px;
+    box-shadow: 1px 1px 1px;
+}
+
+
+
+.menu_texto {
+    float: right;
+    font-family: roboto;
+    color: #3E3E3E;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.nosso_estoque_header {
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #3E3E3E;
+    border: 1px solid #3E3E3E;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nosso_estoque_header:hover {
+    transition: 300ms linear;
+    background-color: #C1383D;
+}
+
+.header_menu {
+    cursor: pointer;
+}
+
+.header_menu:target {
+    color: #C1383D;
+}
+
+.header_menu_aberto {
+    position: absolute;
+    font-weight: 500;
+    font-size: 18px;
+    color: #DCDCDC;
+    height: 100vh;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    padding-left: 22%;
+    font-family: roboto;
+    padding-bottom: 35%;
+    z-index: 2;
+    left: -100vw;
+    transition: all 0.5s;
+    backdrop-filter: blur(20px) saturate(1.8);
+    background: rgba(0,0,0,0.6);
+    max-width: 1200px;
+}
+
+.texto_menu_aberto  {
+    cursor: pointer;
+    padding-bottom: 40px;
+    padding-right: 200px;
+    
+}
+
+.texto_menu_aberto:hover {
+    transition: 0.2ms;
+    color: #FFFFFF;
+}
+
+.menu_aberto__ativo {
+    left: 0;
+}
+
+.barra_cabecalho_1 {
+    border-top: 1px solid #3E3E3E;
+    position: absolute;
+    z-index: 1;
+    width: 10px;
+    margin-top: 4px;
+}
+
+.barra_cabecalho_2 {
+    border-top: 1px solid #3E3E3E;
+    position: absolute;
+    z-index: 1;
+    width: 10px;
+    margin-top: 7px;
+}
+
+.barra_cabecalho_3 {
+    border-top: 1px solid #3E3E3E;
+    position: absolute;
+    z-index: 1;
+    width: 10px;
+    margin-top: 10px;
+}
+
+.barra_cabecalho_1.ativo {
+    margin-top: 7px;
+    transform: rotate(40deg);
+}
+
+.barra_cabecalho_3.ativo {
+    margin-top: 7px;
+    transform: rotate(-40deg);
+}  
