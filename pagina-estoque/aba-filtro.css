@@ -6,6 +6,7 @@
     background-color: #FFFFFF;
     width: 405px;
     height: 1433px;
+    margin-left: 30px
 }
 
 .texto-marca-carros {
@@ -20,7 +21,7 @@
     display: inline-block;
     margin-left: 11px;
     margin-top: 19px;
-    box-shadow: 0px 2px 2px;
+    box-shadow: 0px 2px 4px;
     width: 71px;
 }
 
@@ -42,7 +43,7 @@
 .marca-2 {
     display: inline-block;
     margin-left: 11px;
-    box-shadow: 0px 2px 2px;
+    box-shadow: 0px 2px 4px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -64,7 +65,7 @@
 .marca-3 {
     display: inline-block;
     margin-left: 11px;
-    box-shadow: 0px 2px 2px;
+    box-shadow: 0px 2px 4px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -82,4 +83,168 @@
     padding-left: 1px;
     font-weight: lighter;
     margin-bottom: 3px;
+}
+
+.marca-4 {
+    display: inline-block;
+    margin-left: 14px;
+    box-shadow: 0px 2px 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo-jeep1 {
+    margin-top: 20px;
+    margin-right: 3px;
+    margin-left: 6px;
+}
+
+.texto-jeep1 {
+    font-size: 10px;
+    font-family: 'Roboto';
+    color: #8D8D8D;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: lighter;
+    margin-bottom: 3px;
+}
+
+.marca-5 {
+    display: inline-block;
+    margin-left: 12px;
+    box-shadow: 0px 2px 4px;
+    padding-left: 10px;
+    padding-right: 19px;
+    margin-top: 22px;
+}
+
+.logo-bmw2 {
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.texto-bmw2 {
+    font-size: 10px;
+    font-family: 'Roboto';
+    color: #8D8D8D;
+    padding-top: 6px;
+    padding-left: 13px;
+    font-weight: lighter;
+    margin-bottom: 3px;
+}
+
+.marca-6 {
+    display: inline-block;
+    margin-left: 11px;
+    box-shadow: 0px 2px 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 22px;
+}
+
+.logo-audi2 {
+    margin-top: 5px;
+}
+
+.texto-audi2 {
+    font-size: 10px;
+    font-family: 'Roboto';
+    color: #8D8D8D;
+    padding-top: 6px;
+    padding-left: 14px;
+    font-weight: lighter;
+    margin-bottom: 3px;
+}
+
+.marca-7 {
+    display: inline-block;
+    margin-left: 10px;
+    box-shadow: 0px 2px 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 22px;
+}
+
+.logo-mercedes2 {
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.texto-mercedes2 {
+    font-size: 10px;
+    font-family: 'Roboto';
+    color: #8D8D8D;
+    padding-top: 6px;
+    padding-left: 1px;
+    font-weight: lighter;
+    margin-bottom: 3px;
+}
+
+.marca-8 {
+    display: inline-block;
+    margin-left: 14px;
+    box-shadow: 0px 2px 4px;
+    padding-left: 10px;
+    padding-right: 14px;
+    margin-top: 22px;
+}
+
+.logo-jeep2 {
+    margin-top: 24px;
+    margin-left: 5px;
+}
+
+.texto-jeep2 {
+    font-size: 10px;
+    font-family: 'Roboto';
+    color: #8D8D8D;
+    padding-top: 6px;
+    padding-left: 20px;
+    font-weight: lighter;
+    margin-bottom: 3px;
+}
+
+.border {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: 1px groove #D9D9D9;
+}
+
+.filtro-tipo, .filtro-ano, .filtro-preco, .filtro-quilometragem, .filtro-combustivel {
+    font-size: 14px;
+    display: block;
+    font-family: roboto;
+    font-weight: bold;
+    padding-left: 13px;
+}
+
+.checkboxs {
+    width: 29px;
+    height: 29px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.filtro-novos {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #515151;
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-right: 110px;
+}
+
+.filtro-usados {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #515151;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.usados-novos-texto {
+    vertical-align: super;
+    margin-left: 10px;
 }
