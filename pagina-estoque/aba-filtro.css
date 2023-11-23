@@ -248,3 +248,43 @@
     vertical-align: super;
     margin-left: 10px;
 }
+
+.filtro-de, .filtro-ate {
+    height: 40px;
+    margin-top: 20px;
+    width: 140px;
+    margin-left: 13px;
+    border-radius: 8px;
+    padding-left: 8px;
+    margin-right: 52px;
+}
+
+.filtro-ate {
+    margin-right: 0;
+}
+
+.exemplo-esq, .exemplo-dir {
+    font-size: 14px;
+    display: inline-block;
+    font-family: roboto;
+    font-weight: lighter;
+    padding-left: 14px;
+    color: #ACACAC;
+    margin-top: 3px;
+    margin-right: 155px;
+}
+
+.exemplo-dir {
+    margin-right: 0;
+}
+
+.filtro-alcool, .filtro-diesel, .filtro-eletrico, .filtro-gasolina {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #515151;
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-right: 110px;
+}
+
