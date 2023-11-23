@@ -1,0 +1,15 @@
+.aba-estoque {
+    display: inline-block;
+    width: calc(100% - 455px);
+    padding-left: 25px;
+    vertical-align: top;
+}
+
+.home-estoque {
+    font-size: 12px;
+    display: block;
+    font-family: roboto;
+    color: #5F5F5F;
+    margin-bottom: 19px;
+    margin-top: 10px;
+}

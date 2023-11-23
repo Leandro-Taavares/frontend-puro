@@ -1,12 +1,14 @@
 .section {
     padding-top: 81px;
+    display: block;
+    width: 100%;
 }
 
 .aba-filtro {
     background-color: #FFFFFF;
-    width: 405px;
-    height: 1433px;
-    margin-left: 30px
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .texto-marca-carros {
@@ -14,15 +16,23 @@
     display: block;
     font-family: roboto;
     font-weight: bold;
-    padding-left: 13px;
+    padding-left: 25px;
+}
+
+.marca {
+    display: inline-block;
+    margin-left: 25px;
+    box-shadow: 0px 3px 4px 0px #8D8D8D;
+    width: 71px;
 }
 
 .marca-1 {
-    display: inline-block;
-    margin-left: 11px;
     margin-top: 19px;
-    box-shadow: 0px 2px 4px;
-    width: 71px;
+}
+
+.marca-padding {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .logo-bmw1 {
@@ -40,14 +50,6 @@
     margin-bottom: 3px;
 }
 
-.marca-2 {
-    display: inline-block;
-    margin-left: 11px;
-    box-shadow: 0px 2px 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .logo-audi1 {
     margin-top: 10px;
 }
@@ -62,16 +64,8 @@
     margin-bottom: 3px;
 }
 
-.marca-3 {
-    display: inline-block;
-    margin-left: 11px;
-    box-shadow: 0px 2px 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .logo-mercedes1 {
-    margin-top: 12px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -79,43 +73,32 @@
     font-size: 10px;
     font-family: 'Roboto';
     color: #8D8D8D;
-    padding-top: 6px;
+    padding-top: 8px;
     padding-left: 1px;
     font-weight: lighter;
     margin-bottom: 3px;
 }
 
-.marca-4 {
-    display: inline-block;
-    margin-left: 14px;
-    box-shadow: 0px 2px 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .logo-jeep1 {
-    margin-top: 20px;
-    margin-right: 3px;
-    margin-left: 6px;
+    margin-top: 23px;  
 }
 
 .texto-jeep1 {
     font-size: 10px;
     font-family: 'Roboto';
     color: #8D8D8D;
-    padding-top: 10px;
-    padding-left: 20px;
+    padding-top: 7px;
+    padding-left: 13px;
     font-weight: lighter;
     margin-bottom: 3px;
 }
 
-.marca-5 {
-    display: inline-block;
-    margin-left: 12px;
-    box-shadow: 0px 2px 4px;
-    padding-left: 10px;
-    padding-right: 19px;
+.marca-margin {
     margin-top: 22px;
+}
+
+.marca-5 {
+    padding-right: 19px;
 }
 
 .logo-bmw2 {
@@ -133,15 +116,6 @@
     margin-bottom: 3px;
 }
 
-.marca-6 {
-    display: inline-block;
-    margin-left: 11px;
-    box-shadow: 0px 2px 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 22px;
-}
-
 .logo-audi2 {
     margin-top: 5px;
 }
@@ -154,15 +128,6 @@
     padding-left: 14px;
     font-weight: lighter;
     margin-bottom: 3px;
-}
-
-.marca-7 {
-    display: inline-block;
-    margin-left: 10px;
-    box-shadow: 0px 2px 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 22px;
 }
 
 .logo-mercedes2 {
@@ -181,17 +146,11 @@
 }
 
 .marca-8 {
-    display: inline-block;
-    margin-left: 14px;
-    box-shadow: 0px 2px 4px;
-    padding-left: 10px;
     padding-right: 14px;
-    margin-top: 22px;
 }
 
 .logo-jeep2 {
     margin-top: 24px;
-    margin-left: 5px;
 }
 
 .texto-jeep2 {
@@ -199,13 +158,13 @@
     font-family: 'Roboto';
     color: #8D8D8D;
     padding-top: 6px;
-    padding-left: 20px;
+    padding-left: 15px;
     font-weight: lighter;
     margin-bottom: 3px;
 }
 
 .border {
-    margin-top: 25px;
+    margin-top: 40px;
     margin-bottom: 20px;
     border: 1px groove #D9D9D9;
 }
@@ -215,7 +174,7 @@
     display: block;
     font-family: roboto;
     font-weight: bold;
-    padding-left: 13px;
+    padding-left: 25px;
 }
 
 .checkboxs {
@@ -223,6 +182,7 @@
     height: 29px;
     margin-top: 20px;
     margin-left: 10px;
+    color: #959595;
 }
 
 .filtro-novos {
@@ -231,7 +191,7 @@
     font-family: 'Roboto';
     color: #515151;
     font-weight: lighter;
-    margin-left: 10px;
+    margin-left: 17px;
     margin-right: 110px;
 }
 
@@ -252,10 +212,10 @@
 .filtro-de, .filtro-ate {
     height: 40px;
     margin-top: 20px;
-    width: 140px;
-    margin-left: 13px;
+    width: 133px;
+    margin-left: 25px;
     border-radius: 8px;
-    padding-left: 8px;
+    padding-left: 7px;
     margin-right: 52px;
 }
 
@@ -268,7 +228,7 @@
     display: inline-block;
     font-family: roboto;
     font-weight: lighter;
-    padding-left: 14px;
+    padding-left: 25px;
     color: #ACACAC;
     margin-top: 3px;
     margin-right: 155px;
@@ -278,13 +238,19 @@
     margin-right: 0;
 }
 
-.filtro-alcool, .filtro-diesel, .filtro-eletrico, .filtro-gasolina {
-    display: inline-block;
+.filtro-alcool, .filtro-diesel, .filtro-eletrico, .filtro-gasolina, .filtro-hibrido {
     font-size: 14px;
     font-family: 'Roboto';
     color: #515151;
     font-weight: lighter;
-    margin-left: 10px;
+    margin-left: 17px;
     margin-right: 110px;
 }
 
+input[type=text] {
+    border: 1px solid #959595;
+  }
+
+  .checkboxs input:checked ~ .checkmark {
+    background-color: #FFFFFF;
+  }
