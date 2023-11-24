@@ -13,3 +13,64 @@
     margin-bottom: 19px;
     margin-top: 10px;
 }
+
+.carros-anunciados {
+    display: inline-block;
+    box-shadow: 0px 3px 4px 0px #8D8D8D;
+    border-radius: 9px;
+    margin-bottom: 35px;
+    height: 290px;
+    margin-right: 35px;
+}
+
+.descricao-carro {
+    margin-left: 10px;
+}
+
+.nome-carro {
+    font-size: 12px;
+    font-family: roboto;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.modelo-carro {
+    font-size: 10px;
+    font-family: roboto;
+    color: #888888;
+    margin-bottom: 10px;
+}
+
+.preco-carro {
+    font-size: 20px;
+    font-family: roboto;
+}
+
+.ano-carro {
+    display: inline-block;
+    font-size: 10px;
+    font-family: roboto;
+    color: #888888;
+    margin-right: 20px;
+}
+
+.km-carro {
+    display: inline-block;
+    font-size: 10px;
+    font-family: roboto;
+    color: #888888;
+}
+
+.borda-ver-mais {
+    border: 1px solid;
+    border-radius: 5px;
+    margin-right: 12px;
+    margin-top: 15px;
+}
+
+.ver-mais {
+    font-size: 10px;
+    font-family: roboto;
+    padding-left: 65px;
+    margin: 7px;
+}
