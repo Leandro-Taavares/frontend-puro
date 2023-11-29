@@ -48,6 +48,7 @@
 .nosso_estoque_header:hover {
     transition: 300ms linear;
     background-color: #C1383D;
+    color: #FFFFFF;
 }
 
 .header_menu {
@@ -129,3 +130,5 @@
     margin-top: 7px;
     transform: rotate(-40deg);
 }  
+
+

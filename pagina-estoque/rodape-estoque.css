@@ -28,16 +28,13 @@
 .container {
     width: 1110px;
     margin: 0 auto;
+    background-color: #323232;
 }
 
 .container_conteudo_footer {
     display: flex;
     margin-top: 20px;
     border-top: 1px solid white;
-}
-
-footer {
-    background-color: #323232;
 }
 
 .localidade {
@@ -104,4 +101,29 @@ footer {
 
 .espacamento {
     padding: 10px;
+}
+
+footer {
+    background-color: #323232;
+}
+
+@media(max-width: 576px) {
+    .container {
+        width: 1255px;
+        padding-left: 90px;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        width: 1255px;
+        padding-left: 90px;
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        width: 1255px;
+        padding-left: 90px;
+    }
 }
