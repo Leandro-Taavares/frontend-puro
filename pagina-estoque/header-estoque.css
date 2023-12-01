@@ -71,7 +71,7 @@
     font-family: roboto;
     padding-bottom: 35%;
     z-index: 2;
-    left: -100vw;
+    left: -130vw;
     transition: all 0.5s;
     backdrop-filter: blur(20px) saturate(1.8);
     background: rgba(0,0,0,0.6);
@@ -91,7 +91,9 @@
 }
 
 .menu_aberto__ativo {
-    left: 0;
+    display: inline-block;
+    left: 0;    
+    position: absolute;
 }
 
 .barra_cabecalho_1 {
@@ -131,4 +133,73 @@
     transform: rotate(-40deg);
 }  
 
+
+@media (min-width: 768px) {
+    .header_menu {
+        margin-left: 1%;
+        margin-right: 10%;
+    }
+
+    .barra_cabecalho_1, .barra_cabecalho_2, .barra_cabecalho_3 {
+        left: 10px;
+    }
+    
+    .menu_texto {
+        font-size: 11px;
+        padding-left: 15px;
+    }
+
+    .nosso_estoque_header {
+        font-size: 11px;
+        letter-spacing: 0px;
+        padding: 6px;
+        margin-left: 60px;
+        margin-right: 10px;
+        display: block;
+
+    }
+
+    .header_menu_aberto {
+        padding-left: 1%;
+        width: 370px;
+    }
+    
+    .texto_menu_aberto {
+        padding-right: 0;
+        padding-bottom: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .barra_cabecalho_1, .barra_cabecalho_2, .barra_cabecalho_3 {
+        width: 3%;
+        left: 1%;
+    }
+
+    .barra_cabecalho_2 {
+        margin-top: 7px;
+    }
+
+    .barra_cabecalho_3 {
+        margin-top: 11px;
+    }
+    .menu_texto {
+        font-size: 10px;
+        padding-top: 10%;
+        padding-left: 16px;
+        margin-left: 0px;    
+    }
+
+    .nosso_estoque_header {
+        font-size: 7px;
+        margin-right: 2px;
+        padding: 4px;
+
+    }
+
+    .texto_menu_aberto {
+        padding-right: 100px;
+    }
+
+}
 

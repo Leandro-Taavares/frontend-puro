@@ -19,8 +19,9 @@
     box-shadow: 0px 3px 4px 0px #8D8D8D;
     border-radius: 9px;
     margin-bottom: 35px;
-    height: 290px;
+    padding-bottom: 20px;
     margin-right: 35px;
+    cursor: pointer;
 }
 
 .descricao-carro {
@@ -85,95 +86,38 @@
     display: none;
 }
 
-@media(max-width: 576px) {
+@media (min-width: 768px) {
     .aba-estoque {
-        width: 1256px;
-        padding-left: 130px;
+        width: 100%;
     }
-
     .home-estoque {
         display: inline-block;
-    }
 
+    }
     .filtro-mobile {
         display: inline-block;
-        float: inline-end;
-        margin-right: 130px;
-        margin-top: 10px;
+        margin-left: 73%;
     }
-
     .filtrar-img-mobile {
         width: 10px;
-        display: inline-block;
     }
-
     .filtrar-txt-mobile {
         display: inline-block;
         font-size: 12px;
-        font-family: roboto;
         color: #5F5F5F;
+        font-family: roboto;
     }
-
+    .carros-anunciados {
+        margin-right: 24px;
+    }
 }
 
-@media(max-width: 768px) {
-    .aba-estoque {
-        width: 1256px;
-        padding-left: 130px;
-    }
-
-    .home-estoque {
-        display: inline-block;
+@media (min-width: 992px) {
+    .carros-anunciados {
+        margin-right: 17px;
     }
 
     .filtro-mobile {
-        display: inline-block;
-        float: inline-end;
-        margin-right: 130px;
-        margin-top: 10px;
+        margin-left: 79%;
     }
-
-    .filtrar-img-mobile {
-        width: 10px;
-        display: inline-block;
-    }
-
-    .filtrar-txt-mobile {
-        display: inline-block;
-        font-size: 12px;
-        font-family: roboto;
-        color: #5F5F5F;
-    }
-
-}
-
-@media(max-width: 992px) {
-    .aba-estoque {
-        width: 1256px;
-        padding-left: 130px;
-    }
-
-    .home-estoque {
-        display: inline-block;
-    }
-
-    .filtro-mobile {
-        display: inline-block;
-        float: inline-end;
-        margin-right: 130px;
-        margin-top: 10px;
-    }
-
-    .filtrar-img-mobile {
-        width: 10px;
-        display: inline-block;
-    }
-
-    .filtrar-txt-mobile {
-        display: inline-block;
-        font-size: 12px;
-        font-family: roboto;
-        color: #5F5F5F;
-    }
-
 }

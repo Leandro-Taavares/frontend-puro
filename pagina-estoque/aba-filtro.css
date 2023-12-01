@@ -255,28 +255,22 @@ input[type=text] {
     background-color: #FFFFFF;
   }
 
-
-
-@media(max-width: 576px) {
-  .aba-filtro {
-    left: -100vw;
-    display: none;
-    z-index: 1;
-}
-}
-
-@media(max-width: 768px) {
+@media (min-width: 768px) {
     .aba-filtro {
-      left: -100vw;
       display: none;
-      z-index: 1;
-  }
+      width: 50%;
+    }
+
+    .marca {
+      margin-left: 15px;
+    }
+
+    .filtro-de, .filtro-ate {
+        margin-right: 10px;
+    }
+
+    .exemplo-esq, .exemplo-dir {
+         margin-right: 95px;
+    }
   }
 
-  @media(max-width: 992px) {
-    .aba-filtro {
-      left: -100vw;
-      display: none;
-      z-index: 1;
-  }
-  }
