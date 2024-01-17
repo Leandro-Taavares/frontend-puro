@@ -66,88 +66,47 @@ color: #C1383D;
 
 }
 
-@media(max-width: 768px) {
+@media (min-width: 320px) AND (max-width: 768px) {
     .secao_avaliacoes {
-        height: 560px;
-
+        height: 10%;
     }
 
     .fundo_cinza {
-        height: 609px;
-        right: 482px;
-        top: -47px;
+        width: 166vw;
+        height: 100%;
+        right: 65%;
     }
 
     .texto_clientes {
-        font-size: 45px;
-        padding-right: 77px;
-        padding-top: 13px;
-        padding-bottom: 32px;
-    }
-
-    .secao_texto {
         font-size: 13px;
-        padding-bottom: 70px;
-        line-height: 197%;
-        max-width: 712px;
-        font-weight: 100;
-    }
-}
-
-@media(max-width: 576px) {
-    .fundo_cinza {
-        right: 354px;
-        top: -26px;
+        padding-right: 15%; 
+        padding-top: 3%;
+        padding-bottom: 5%;
     }
 
-    .texto_clientes {
-        font-size: 38px;
-        padding-right: 30px;
-        padding-top: 59px;
-        padding-bottom: 24px;
+    .cor_nossos {
+        margin-right: 10px;
     }
 
     .secao_texto {
-        font-size: 11px;
-        line-height: 157%;
-        max-width: 519px;
-    }
-}
-
-@media(max-width: 992px) {
-    .fundo_cinza {
-        height: 571px;
-        right: 644px;
-        top: 84px;
+        font-size: 7px;
+        padding-bottom: 19px;
+        line-height: 100%;
+        margin: 0px 20px 0px 20px;
     }
 
-    .texto_clientes {
-        padding-right: 152px;
-        padding-bottom: 41px;
-        padding-top: 160px;
+    .avaliacao_texto {
+        margin-left: 10px;
     }
 
-    .secao_texto {
-        padding-bottom: 172px;
-        line-height: 152%;
-        max-width: 949px;
-    }
-}
-
-@media (max-width: 1200px ) {
-    .fundo_cinza {
-        height: 531px;
-        right: 690px;
-        top: 9px;
+    .imagem_cliente {
+        width: 20px;
     }
 
-    .texto_clientes {
-        padding-right: 201px;
-        padding-top: 50px;
+    .nome_cliente {
+        padding-top: 6px;
+        padding-left: 25px;
+        font-size: 6px;
     }
 
-    .secao_texto {
-        line-height: 146%;
-        max-width: 1000px;
-    }
 }

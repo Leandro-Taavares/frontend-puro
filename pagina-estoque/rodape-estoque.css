@@ -109,22 +109,117 @@ footer {
     background-color: #323232;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 320px) {
     .container {
         width: 100%;
     }
-    .localidade {
+
+    .logo_doin  {
+        width: 46px;
+    }
+
+    .topicos_rodape {
+        margin-left: 15px;
+        font-size: 8px;
         margin-right: 0px;
-        width: 47%;
     }
+    .topicos_rodape li {
+        margin-right: 5px;
+    }
+
+    .container_conteudo_footer {
+        display: block;
+    }
+
+    .localidade {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 11px;
+        margin-top: 10px;
+    }
+
+    .localidade p {
+        font-size: 12px;
+        margin: 0.5em;
+    }
+
+
+
     .redes_sociais {
-        padding: 10px;
-        margin-left: 0;
-        margin-top: 0;
-        display: grid;
+        margin-left: 33%;
+        margin-top: 0px;
     }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .logo_doin {
+        width: 99px;
+    }
+
+    .topicos_rodape {
+        margin-left: 26px;
+        font-size: 12px;
+    }
+
+    .topicos_rodape li {
+        margin-right: 30px;
+    }
+
+    .container_conteudo_footer {
+        display: flex;
+    }
+
+    .localidade {
+        width: 45%;
+        margin-right: 0px;
+        margin-bottom: 11px;
+        margin-top: 10px;
+    }
+
+    .redes_sociais {
+        margin-left: 0%;
+        margin-top: 40px;
+    }
+
     .espacamento {
-        padding: 0;
+        padding: 0px 0px 0px 8px;
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1024px) {
+    .container {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .logo_doin {
+        width: 99px;
+    }
+
+    .topicos_rodape {
+        margin-left: 31px;
+        font-size: 12px;
+    }
+
+    .topicos_rodape li {
+        margin-right: 45px;
+    }
+
+    .container_conteudo_footer {
+        display: block;
+    }
+
+    .localidade {
+        margin-top: 15px;
+        margin-bottom: 11px;
+        width: 370px;
+    }
+
+    .redes_sociais {
+        display: inline;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+}

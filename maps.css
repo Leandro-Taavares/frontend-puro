@@ -32,27 +32,13 @@
     height: 100vh;
 }
 
-@media(max-width: 768px) {
-    #map {
-        height: 33vh;
-    }
-}
-
-@media(max-width: 576px) {
-    
+@media (min-width: 320px) AND (max-width: 768px) {
     .titulo_onde_encontrar {
-        padding: 1px;
-        font-size: 1.5em;
+        font-size: 17px;
+        padding: 10px;
     }
 
-    .seta {
-        margin-top: -4px;
+    #map {
+        height: 50vh;
     }
-}
-
-@media(max-width: 992px) {
- .titulo_onde_encontrar {
-    padding: 9px;
-    font-size: 2.0em;
- }
 }

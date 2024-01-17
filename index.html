@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="rodape.css">
     <link rel="stylesheet" href="mural.css">
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="avaliacoes.css">
     <link rel="stylesheet" href="video.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -20,15 +21,20 @@
 
 <body>
     <header class="header">
+        <div class="Logo hide sm:show">
+            <a href="/" title="Doin">
+                <img class="logo-tamanho" src="imagens/LOGO DOINN.png" alt="Doin Motors" />
+            </a>
+        </div>
         <div class="header_menu">
             <div class="barra_cabecalho_1"></div>
             <div class="barra_cabecalho_2"></div>
             <div class="barra_cabecalho_3"></div>
             <p class="menu_texto">MENU</p>
         </div>
-        <div class="Logo">
+        <div class="Logo sm:hide">
             <a href="/" title="Doin">
-                <img src="imagens/LOGO DOINN.png" alt="Doin Motors" />
+                <img class="logo-tamanho" src="imagens/LOGO DOINN.png" alt="Doin Motors" />
             </a>
         </div>
         <a href="/nosso-estoque" title="NOSSO ESTOQUE" class="nosso_estoque_header">NOSSO ESTOQUE</a>
@@ -45,8 +51,9 @@
     <section>
         <div class="capa_video">
             <img src="imagens/Fundo.jpg" alt="video" class="video_cliente">
-            <img src="imagens/Vector 2.png" class="logo_delta">
-            <div class="fundo_vermelho"></div>  
+            <div class="fundo_vermelho">
+                <img src="imagens/Vector 2.png" class="logo_delta">
+            </div>  
             <p class="frase_sonho">A 20 anos fazendo seu sonho se <strong
                     class="frase_sonho_vermelho">tornar realidade</strong></p>
         </div>
