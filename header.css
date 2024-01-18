@@ -137,40 +137,54 @@
         content: "";
         top: 0;
         left: 0;
-        bottom: 78%;
+        bottom: 90%;
         right: 0;
         background: rgba(0, 0, 0, 0.4);
+        display: block;
+        width: unset;
+        height: fit-content;
+    }
+
+    .Logo {
+        padding-top: 1%;
+        padding-left: 40%;
     }
 
     .header_menu {
-       position: fixed;
-       top: 9%;
-       left: 43%;
+        padding-left: 44%;
+        padding-top: 1%;
+    }
+
+    .nosso_estoque_header {
+        font-size: 10px;
+        padding: 7px;
+        margin-left: 40%;
+        display: inline-block;
+        margin-top: 1%;
+    }
+
+    .borda_header {
+        margin-top: 20%;
+        left: 0%;
+        width: 100%;
     }
 
     .menu_texto {
         float: none;
     }
 
-    .Logo {
-        position: fixed;
-        padding-left: 33%;
-        top: 1%;
-    }
-
-    .nosso_estoque_header {
-        font-size: 10px;
-        padding: 7px;
-        position: fixed;
-        top: 15%;
-        left: 33%;
-    }
-
-    .borda_header {
-        margin-top: 24%;
-        left: 0%;
+    .menu_aberto__ativo {
         width: 100%;
+        padding-top: 20%;
+
     }
 
+    .texto_menu_aberto {
+        padding-right: 1%;
+        padding-left: 40%;
+        padding-bottom: 5%;
+    }
+
+    
 }
 

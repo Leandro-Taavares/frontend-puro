@@ -44,31 +44,28 @@
 
 @media (min-width: 320px) AND (max-width: 768px) {
     
-    .video_cliente {
-        height: 60vh;
-    }
+    
 
     .logo_delta {
-        left: 44%;
-        top: 79%;
-        width: 7%;
+        width: 17%;
+        right: 100%;
+        top: unset;
+        left: unset;
     }
 
     .fundo_vermelho {
-        width: 49%;
-        height: 10%;
-        left: 51%;
-        bottom: 11%;
+        height: 16%;
+        bottom: 15%;
     }
 
     .frase_sonho {
-        font-size: 7px;;
-        left: 55%;
-        bottom: 10%;
+        font-size: 16px;;
+        left: 50%;
+        bottom: 17%;
         padding-top: 0px;
         padding-left: 0px;
-        line-height: 10px;
-        width: 30%;
+        line-height: unset;
+        width: 50%
 
     }
 }

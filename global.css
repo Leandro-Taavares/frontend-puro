@@ -6,13 +6,13 @@
     display: block;
 }
 
-@media (min-width: 320px) AND (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
 
-    .sm:show {
+    .sm\:show {
         display: block;
     }
 
-    .sm:hide {
+    .sm\:hide {
         display: none;
     }
     
@@ -20,11 +20,11 @@
 
 @media (min-width: 769px) and  (max-width: 1024px) {
 
-    .md:show {
+    .md\:show {
         display: block;
     }
 
-    .md:hide {
+    .md\:hide {
         display: none;
     }
     

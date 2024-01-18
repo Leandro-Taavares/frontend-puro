@@ -1,6 +1,5 @@
 .secao_avaliacoes {
     width: 100%;
-    height: 515px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -67,46 +66,46 @@ color: #C1383D;
 }
 
 @media (min-width: 320px) AND (max-width: 768px) {
-    .secao_avaliacoes {
-        height: 10%;
+
+    .avaliacao_cliente {
+        position: relative;
     }
 
     .fundo_cinza {
-        width: 166vw;
-        height: 100%;
-        right: 65%;
+        display: none;
+    }
+
+    .texto_fundo_cinza {
+        background-color:#888888;
     }
 
     .texto_clientes {
-        font-size: 13px;
-        padding-right: 15%; 
-        padding-top: 3%;
-        padding-bottom: 5%;
-    }
-
-    .cor_nossos {
-        margin-right: 10px;
+        font-size: 30px;
+        padding-right: unset;
+        padding-top: 1%;
+        padding-bottom: 2%;
     }
 
     .secao_texto {
-        font-size: 7px;
-        padding-bottom: 19px;
-        line-height: 100%;
-        margin: 0px 20px 0px 20px;
+        display: block;
+        font-weight: lighter;
+        font-size: 17px;
+        padding-bottom: unset;
+        line-height: 1.5;
+        width: 100%;
     }
 
     .avaliacao_texto {
-        margin-left: 10px;
+        padding-bottom: 10%;
+        padding-top: 5%;
+        padding-right: 2%;
+        padding-left: 2%;
+        margin-right: unset;
     }
 
-    .imagem_cliente {
-        width: 20px;
-    }
-
-    .nome_cliente {
-        padding-top: 6px;
-        padding-left: 25px;
-        font-size: 6px;
+    .cor_nossos {
+        color: #C1383D;
+        margin-right: unset;
     }
 
 }
