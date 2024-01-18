@@ -124,11 +124,11 @@
 }
   
 
-@media (min-width: 320px) AND (max-width: 768px) {
+@media (max-width: 768px) {
 
     .sessao_fotos {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 17,5em);
+        grid-template-rows: repeat(2, 17.5em);
     }
 
     .mural_1 {
@@ -171,4 +171,8 @@
         grid-row: 4 / span 1;
     }
 
+    .mural_1:hover, .mural_2:hover, .mural_3:hover, .mural_4:hover, .mural_5:hover, .mural_6:hover, .mural_7:hover, .mural_8:hover{
+        transition: unset;
+        transform: unset;
+    }
 }
