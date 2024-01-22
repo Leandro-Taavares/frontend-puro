@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     z-index: 3;
-    height: 66px;
+    padding-bottom: 2%;
     background-color: white;
     box-shadow: 0px 0px 10px #888888;
     border: 1px solid #FFFFFF;
@@ -53,6 +53,8 @@
 
 .header_menu {
     cursor: pointer;
+    position: relative;
+    display: inline;
 }
 
 .header_menu:target {
@@ -133,53 +135,49 @@
     transform: rotate(-40deg);
 }  
 
+@media (max-width: 768px) {
 
-@media (min-width: 320px)  {    
+    .header {
+        padding-top: 2%;
+    }
+
     .barra_cabecalho_1, .barra_cabecalho_2, .barra_cabecalho_3 {
-        left: 1%;
-        width: 10px;
+        left: 3%;
     }
 
     .menu_texto {
-        padding-left: 13px;
-        font-size: 9px;
+        font-size: 15px;
+        padding-top: 1px;
+        margin-left: unset;
+        padding-left: 22px;
+    }
+
+    .Logo {
+        display: inline-flex;
+        justify-content: center;
     }
 
     .nosso_estoque_header {
-     font-size: 9px;
-     padding: 6px;
-     margin-right: 1%;   
+        margin-top: 1%;
+        padding: 7px;
+        margin-right: 1%;
     }
 
-    .header_menu_aberto {
+    .menu_aberto__ativo {
         width: 100%;
-        padding-left: 5%;
-        font-size: 9px
+        padding-top: 30%;
+        max-width: unset;
+        padding-left: unset;
+        padding-bottom: unset;
+
     }
 
     .texto_menu_aberto {
-        padding-right: 0px;
-        padding-bottom: 5%;
+        padding-right: 0%;
+        padding-left: 30%;
+        padding-bottom: 10%;
     }
 
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-    .menu_texto {
-        padding-left: 15px;
-    }
 
-    .header_menu_aberto {
-        font-size: 12px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .menu_texto {
-        padding-left: 17px;
-    }
-
-    .header_menu_aberto {
-        font-size: 12px;
-    }
-}

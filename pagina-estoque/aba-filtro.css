@@ -255,10 +255,14 @@ input[type=text] {
     background-color: #FFFFFF;
   }
 
+  @media (max-width: 768px) {
 
+    .section {
+        padding-top: 15%;
+    }
 
-@media (min-width: 320px) and (max-width: 1024px) {
-  .aba-filtro {
-    display: none;
+    .aba-filtro {
+        display: none;
+    }
+
   }
-}
