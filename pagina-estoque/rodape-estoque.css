@@ -166,3 +166,61 @@ footer {
     }
 
 }
+
+@media (min-width: 769px) and (max-width: 1439px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .categorias_footer {
+        display: block;
+    }
+
+    .logo_doin  {
+        margin-left: 35%;
+        margin-bottom: 1%;
+        margin-top: 2%;
+    }
+
+    .topicos_rodape {
+        margin-left: 1%;
+        font-size: 14px;
+        margin-right: unset;
+        margin-top: 1%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .topicos_rodape li {
+        margin-right: 4%;
+        margin-bottom: 3%;
+    }   
+
+    .container_conteudo_footer {
+        display: block;
+        margin-top: unset;
+        
+    }
+
+    .localidade {
+        width: unset;
+        margin-right: 0px;
+        margin-bottom: 11px;
+        margin-top: 10px;
+    }
+
+    .localidade p {
+        font-size: 16px;
+        margin: 0% 0% 0% 1%;
+    }
+
+
+
+    .redes_sociais {
+        margin-left: 33%;
+        margin-top: 0px;
+        padding-bottom: 2%;
+    }
+
+}

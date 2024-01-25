@@ -5,5 +5,5 @@ abrirFiltro.addEventListener('click', abrirEFecharModal)
 
 function abrirEFecharModal() {
     console.log("teste")
-    abaFiltro.classList.toggle('menu_aberto__ativo');
+    abaFiltro.classList.toggle('filtro_aberto__ativo');
 }
