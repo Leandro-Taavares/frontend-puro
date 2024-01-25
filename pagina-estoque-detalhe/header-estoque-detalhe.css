@@ -13,6 +13,7 @@
 }
 
 .fundo {
+    margin: unset;
     background-color: #F0F0F0;
 }
 

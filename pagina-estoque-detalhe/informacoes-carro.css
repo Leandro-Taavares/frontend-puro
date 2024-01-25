@@ -1,0 +1,72 @@
+.informações-carro {
+    background: white;
+    display: block;
+    margin: 0% 10% 0% 10%;
+    border-radius: 10px;
+    padding: 1% 1% 5% 1%;
+    width: 730px;
+}
+
+.primeira-linha {
+    padding-bottom: 5%;
+    border-bottom: 1px solid #b8b8b8;
+    margin-bottom: 5%;
+}
+
+.nome-carro {
+    font-size: 20px;
+    font-family: roboto;
+    display: block;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+.versão-carro {
+    font-size: 11px;
+    font-family: roboto;
+    display: block;
+    padding-bottom: 5%;
+}
+
+.cambio, .Ano, .Km, .Cor, .Troca {
+    display: inline-block;
+    font-size: 11px;
+    margin-right: 10%;
+}
+
+.Dono {
+    display: inline-block;
+    font-size: 11px;
+}
+
+.Opcional {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+.itens-opcionais {
+    display: flex;
+}
+
+.itens-opcionais-primeira-coluna {
+    display: inline-block;
+}
+
+.alinha-lista {
+    display: flex;
+    align-items: center;
+}
+
+.texto-opcionais {
+    font-size: 11px;
+    font-family: roboto;
+    padding-right: 60px;
+}
+
+.segunda-linha {
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    border-bottom: 1px solid #b8b8b8;
+}
