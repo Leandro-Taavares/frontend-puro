@@ -5,6 +5,10 @@
     border-radius: 10px;
     padding: 1% 1% 5% 1%;
     width: 730px;
+    box-shadow: 0px 3px 4px 0px #8D8D8D;
+    margin-top: -25px;
+    z-index: 1;
+    position: relative;
 }
 
 .primeira-linha {
@@ -13,7 +17,13 @@
     margin-bottom: 5%;
 }
 
-.nome-carro {
+.texto-bold {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+.nome-carro-informacoes {
     font-size: 20px;
     font-family: roboto;
     display: block;
@@ -39,7 +49,7 @@
     font-size: 11px;
 }
 
-.Opcional {
+.Opcional, .Garantia, .informações {
     font-size: 20px;
     font-family: Roboto;
     font-weight: bold;
@@ -59,14 +69,108 @@
     align-items: center;
 }
 
-.texto-opcionais {
+.texto-opcionais,.garantia-fabrica, .informações-texto {
     font-size: 11px;
     font-family: roboto;
     padding-right: 60px;
 }
 
-.segunda-linha {
+.segunda-linha, .terceira-linha, .quarta-linha {
     padding-bottom: 5%;
     margin-bottom: 5%;
     border-bottom: 1px solid #b8b8b8;
+}
+
+.informações-carro-2 {
+    position: absolute;
+    right: 30%;
+    top: 49%;
+    z-index: 1;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    padding: 20px 25px 20px 25px;
+    box-shadow: 0px 3px 4px 0px #8D8D8D;
+}
+
+.fundo-whatsapp {
+    background-color: #27AC35;
+    display: inline-flex;
+    width: 303px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.img-whatsapp {
+    padding-left: 10%;
+}
+
+.texto-enviar-mensagem {
+    color: white;
+    padding-left: 5%;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+.telefone {
+    display: block;
+    padding: 10% 0% 10% 2%;
+}
+
+.telefone-texto {
+    font-size: 17px;
+    font-family: roboto;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.localizacao {
+    display: block;
+}
+
+.texto-localizacao {
+    display: inline-block;
+    font-size: 17px;
+    font-family: roboto;
+    padding-left: 3px;
+    padding-bottom: 10%;
+}
+
+.veiculo-loja {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-bottom: 10%;
+}
+
+.endereco {
+    display: block;
+    padding-bottom: 10%;
+}
+
+.predio {
+    display: inline-block;
+    font-size: 17px;
+    font-family: roboto;
+}
+
+.fundo-avalie-carro {
+    background-color: #8D8D8D;
+    display: inline-flex;
+    width: 303px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.img-dinheiro {
+    padding-left: 10%;
+}
+
+.texto-avalie-carro {
+    color: white;
+    padding-left: 5%;
+    font-size: 20px;
+    font-family: 'Roboto';
 }
