@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="header-estoque-detalhe.css">
-    <link rel="stylesheet" href="fotos-carro.css">
     <link rel="stylesheet" href="informacoes-carro.css">
+    <link rel="stylesheet" href="carrossel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/path/to/bootstrap.min.css" />
     <link rel="stylesheet" href="anuncio-carros-semelhantes.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="footer-estoque-detalhe.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
@@ -41,11 +44,38 @@
         <p class="texto_menu_aberto">AVALIAÇÕES CLIENTES</p>
     </div>
     <section>
-        <div class="fotos-carro">
-        <img src="imagens/Audi-1.png" alt="foto-carro-primeira">
-        <img src="imagens/Audi-2.png" alt="foto-carro-segundo">
-        <img src="imagens/Audi-3.png" alt="foto-carro-terceiro">
-        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="imagens/Audi-1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imagens/Audi-2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imagens/Audi-3.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imagens/Audi-1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imagens/Audi-2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imagens/Audi-3.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imagens/Audi-1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imagens/Audi-2.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+    <div class="aba-informações-carros">
         <div class="informações-carro">
             <div class="primeira-linha">
                 <p class="nome-carro-informacoes">Audi A3</p>
@@ -178,6 +208,7 @@
             </div>
         </div>
         <div class="informações-carro-2">
+            <p class="informações-preco-carro">R$ 130.000,00</p>
             <div class="fundo-whatsapp">
                 <img src="imagens/whatsapp.png" alt="whatsapp" class="img-whatsapp">
                 <p class="texto-enviar-mensagem">Enviar mensagem</p>
@@ -241,6 +272,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
     <footer>
         <div class="container">
@@ -268,27 +300,27 @@
                 </nav>
             </div>
             <div class="container_conteudo_footer">
-                <div class="localidade" data-loja="1">
-                    <p class="titulo_loja">Shopping The Blue</p>
-                    <div class="telefone">
-                        <img src="imagens/telefone.png" alt="Telefone" class="imagem_telefone">
-                        <p class="numero_telefone">(13) 3513-0377</p>
+                <div class="localidade-footer" data-loja="1">
+                    <p class="titulo-loja-footer">Shopping The Blue</p>
+                    <div class="telefone-footer">
+                        <img src="imagens/Telefone-branco.png" alt="Telefone" class="imagem-telefone-footer">
+                        <p class="numero-telefone-footer">(13) 3513-0377</p>
                     </div>
-                    <div class="whatsapp">
-                        <img src="imagens/WhatsApp-preto.png" alt="Telefone" class="imagem_whatsapp">
-                        <p class="numero_telefone">(13) 3232-1021</p>
+                    <div class="whatsapp-footer">
+                        <img src="imagens/WhatsApp-preto.png" alt="Telefone" class="imagem-whatsapp-footer">
+                        <p class="numero-telefone-footer">(13) 3232-1021</p>
                     </div>
                     <p class="horario_funcionamento">Segunda a Sexta feira: 8h ás 19h Sábado: 9h ás 13h</p>
                 </div>
-                <div class="localidade" data-loja="2">
-                    <p class="titulo_loja">Vila dos Carros</p>
-                    <div class="telefone">
-                        <img src="imagens/telefone.png" alt="Telefone" class="imagem_telefone">
-                        <p class="numero_telefone">(13) 3513-9770</p>
+                <div class="localidade-footer" data-loja="2">
+                    <p class="titulo-loja-footer">Vila dos Carros</p>
+                    <div class="telefone-footer">
+                        <img src="imagens/Telefone-branco.png" alt="Telefone" class="imagem-telefone-footer">
+                        <p class="numero-telefone-footer">(13) 3513-9770</p>
                     </div>
-                    <div class="whatsapp">
-                        <img src="imagens/WhatsApp-preto.png" alt="Telefone" class="imagem_whatsapp">
-                        <p class="numero_telefone">(13)97402-5502</p>
+                    <div class="whatsapp-footer">
+                        <img src="imagens/WhatsApp-preto.png" alt="Telefone" class="imagem-whatsapp-footer">
+                        <p class="numero-telefone-footer">(13)97402-5502</p>
                     </div>
                     <p class="horario_funcionamento">Segunda á Sabado: 09h ás 19h</p>
                 </div>
@@ -301,4 +333,8 @@
         </div>
     </footer>
     <script type="text/javascript" src="header-estoque-detalhe-js"></script>
+    <script src="carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+    <script src="scroll.js"></script>
 </body>

@@ -1,14 +1,19 @@
 .informações-carro {
     background: white;
     display: block;
-    margin: 0% 10% 0% 10%;
     border-radius: 10px;
-    padding: 1% 1% 5% 1%;
+    padding: 1% 2% 5% 2%;
     width: 730px;
     box-shadow: 0px 3px 4px 0px #8D8D8D;
     margin-top: -25px;
     z-index: 1;
     position: relative;
+    margin-bottom: 5%;
+}
+
+.aba-informações-carros {
+    width: 1114px;
+    margin: 0 auto;
 }
 
 .primeira-linha {
@@ -24,7 +29,7 @@
 
 
 .nome-carro-informacoes {
-    font-size: 20px;
+    font-size: 30px;
     font-family: roboto;
     display: block;
     font-weight: bold;
@@ -32,25 +37,22 @@
 }
 
 .versão-carro {
-    font-size: 11px;
+    font-size: 14px;
     font-family: roboto;
     display: block;
     padding-bottom: 5%;
 }
 
-.cambio, .Ano, .Km, .Cor, .Troca {
+.cambio, .Ano, .Km, .Cor, .Troca, .Dono {
     display: inline-block;
-    font-size: 11px;
-    margin-right: 10%;
+    font-size: 16px;
+    margin-right: 35px;
+    font-family: roboto;
 }
 
-.Dono {
-    display: inline-block;
-    font-size: 11px;
-}
 
 .Opcional, .Garantia, .informações {
-    font-size: 20px;
+    font-size: 30px;
     font-family: Roboto;
     font-weight: bold;
     padding-bottom: 5%;
@@ -67,12 +69,17 @@
 .alinha-lista {
     display: flex;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 .texto-opcionais,.garantia-fabrica, .informações-texto {
-    font-size: 11px;
+    font-size: 16px;
     font-family: roboto;
-    padding-right: 60px;
+    padding-right: 25px;
+}
+
+.informações-texto {
+    line-height: 120%;
 }
 
 .segunda-linha, .terceira-linha, .quarta-linha {
@@ -82,9 +89,9 @@
 }
 
 .informações-carro-2 {
-    position: absolute;
-    right: 30%;
-    top: 49%;
+    position: fixed;
+    right: 395px;
+    top: 375px;
     z-index: 1;
     background-color: white;
     border-radius: 10px;
@@ -93,17 +100,29 @@
     box-shadow: 0px 3px 4px 0px #8D8D8D;
 }
 
+.informações-preco-carro {
+    font-size: 40px;
+    font-family: roboto;
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
 .fundo-whatsapp {
     background-color: #27AC35;
     display: inline-flex;
     width: 303px;
     border-radius: 5px;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 5px 10px 5px;
     text-align: center;
+    cursor: pointer;
+    align-items: center;
 }
 
 .img-whatsapp {
-    padding-left: 10%;
+    padding-left: 14%;
 }
 
 .texto-enviar-mensagem {
@@ -114,8 +133,9 @@
 }
 
 .telefone {
-    display: block;
+    display: flex;
     padding: 10% 0% 10% 2%;
+    align-items: center;
 }
 
 .telefone-texto {
@@ -126,7 +146,9 @@
 }
 
 .localizacao {
-    display: block;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10%;
 }
 
 .texto-localizacao {
@@ -134,7 +156,6 @@
     font-size: 17px;
     font-family: roboto;
     padding-left: 3px;
-    padding-bottom: 10%;
 }
 
 .veiculo-loja {
@@ -145,8 +166,9 @@
 }
 
 .endereco {
-    display: block;
+    display: flex;
     padding-bottom: 10%;
+    align-items: center;
 }
 
 .predio {
@@ -162,10 +184,12 @@
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
     text-align: center;
+    cursor: pointer;
+    align-items: center;
 }
 
 .img-dinheiro {
-    padding-left: 10%;
+    padding-left: 14%;
 }
 
 .texto-avalie-carro {
@@ -173,4 +197,34 @@
     padding-left: 5%;
     font-size: 20px;
     font-family: 'Roboto';
+}
+
+.fixed {
+    top: 300px;
+    position: fixed;
+}
+
+@media (max-width: 768px) {
+    .aba-informações-carros {
+        width: 100%;
+
+    }
+
+    .informações-carro {
+        width: 100%;
+    }
+
+    .cambio, .Ano, .Km, .Cor, .Troca, .Dono {
+        margin-right: 22%;
+        margin-bottom: 10%;
+    }
+
+    .Km {
+        margin-right: 31%;
+    }
+
+    .itens-opcionais-terceiro-coluna, .itens-opcionais-quarta-coluna {
+        display: none;
+    }
+
 }
