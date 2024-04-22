@@ -1,3 +1,5 @@
+
+
 .categorias_footer {
     display: flex;
 }
@@ -51,11 +53,11 @@
     margin: 0.9em;
 }
 
-.telefone {
+.telefone_footer {
     display: inline-block;
 }
 
-.telefone p {
+.telefone_footer p {
     display: inline-block;
      
 }

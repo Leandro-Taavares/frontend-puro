@@ -72,3 +72,12 @@
     transition: 300ms linear;
     color: #FFFFFF;
 }
+
+@media (min-width: 769px) and (max-width: 1439px) {
+    
+    .estoque-carros {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+}
