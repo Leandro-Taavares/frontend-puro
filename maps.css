@@ -29,10 +29,10 @@
 #map {
     width: 100%;
     filter: brightness();
-    height: 100vh;
+    height: 50vh;
 }
 
-@media (min-width: 320px) AND (max-width: 768px) {
+@media (max-width: 768px) {
     .titulo_onde_encontrar {
         font-size: 17px;
         padding: 10px;

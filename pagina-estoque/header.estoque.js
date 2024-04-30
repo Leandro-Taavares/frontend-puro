@@ -4,13 +4,16 @@ const menuFechar = document.querySelector('.menu_texto')
 const virarX = document.querySelector('.barra_cabecalho_1')
 const virarXs = document.querySelector('.barra_cabecalho_3')
 const apagarBarra = document.querySelector('.barra_cabecalho_2')
-
+const overlay = document.querySelector('.overlay');
 
 function abrirEFecharModal(){
     console.log("teste");
     headerMenu.classList.toggle('menu_aberto__ativo');
     virarX.classList.toggle('ativo');
     virarXs.classList.toggle('ativo');
+    overlay.classList.toggle('overlay-ativo');
+
+    document.body.classList.toggle('no-scroll');
 }
 
 abrirHeader.addEventListener('click', abrirEFecharModal)

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <link rel="stylesheet" href="contato.css">
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="header-contato.css">
+    <link rel="stylesheet" href="maps.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -14,27 +15,21 @@
 
 </head>
 
-<body>
+<body class="fundo">
     <header class="header">
-        <div class="Logo hide sm:show">
-            <a href="/" title="Doin">
-                <img class="logo-tamanho" src="imagens/LOGO DOINN.png" alt="Doin Motors" />
-            </a>
-        </div>
         <div class="header_menu">
             <div class="barra_cabecalho_1"></div>
             <div class="barra_cabecalho_2"></div>
             <div class="barra_cabecalho_3"></div>
             <p class="menu_texto">MENU</p>
         </div>
-        <div class="Logo sm:hide">
+        <div class="Logo">
             <a href="/" title="Doin">
-                <img class="logo-tamanho" src="imagens/LOGO DOINN.png" alt="Doin Motors" />
+                <img src="imagens/Logo Doin.png" alt="Doin Motors" />
             </a>
         </div>
         <a href="/nosso-estoque" title="NOSSO ESTOQUE" class="nosso_estoque_header">NOSSO ESTOQUE</a>
     </header>
-<div class="borda_header"></div>
     <div class="header_menu_aberto">
         <p class="texto_menu_aberto">NOSSO ESTOQUE</p>
         <p class="texto_menu_aberto">VENDA SEU CARRO</p>
@@ -44,6 +39,80 @@
         <p class="texto_menu_aberto">AVALIAÇÕES CLIENTES</p>
     </div>
 </body>
+
+<section class="section">
+    <div class="informacoes-contato-maps">
+        <div class="informacoes-funcionamento">
+            <p class="escrita-inf-contato">Contato</p>
+            <p class="escrita-inf-horario">Segunda a sexta 09:00 as 19:30</p>
+            <p class="escrita-inf-horario">Sabado 09:00 as 14:30</p>
+            <a class="escrita-inf" href="tel:+5535130377"> <img src="imagens/Telefone-preto.png" alt="Telefone" class="imgs-contato">(13) 35130377</a>
+            <a class="escrita-inf" href="tel:+551332321021"> <img src="imagens/Telefone-preto.png" alt="Telefone" class="imgs-contato">(13) 32321021</a>
+            <p class="escrita-inf"> <img src="imagens/211660_email_icon (1) 1.png" alt="Email" class="imgs-contato">atendimento@doinmotors.com.br</p>
+            <a class="fundo-verde" href="+5513997121727"><img src="imagens/WhatsApp.png" alt="whatsapp" class="img-whatsapp">Enviar mensagem</a>
+        </div>
+            <div id="map"></div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="categorias_footer">
+            <img src="imagens/Logo Doin.png" alt="logo" class="logo_doin">
+            <nav>
+                <ul class="topicos_rodape">
+                    <li>
+                        <a href="/nosso-estoque" title="NOSSO ESTOQUE">NOSSO ESTOQUE</a>
+                    </li>
+                    <li>
+                        <a href="/venda-seu-carro" title="VENDA SEU CARRO">VENDA SEU CARRO</a>
+                    </li>
+                    <li>
+                        <a href="/financie" title="financie">FINANCIE</a>
+                    </li>
+                    <li>
+                        <a href="/atacado" title="atacado">ATACADO</a>
+                    </li>
+                    <li>
+                        <a href="/sobre" title="sobre">SOBRE</a>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container_conteudo_footer">
+            <div class="localidade" data-loja="1">
+                <p class="titulo_loja">Shopping The Blue</p>
+                <div class="telefone">
+                    <img src="imagens/Telefone.png" alt="Telefone" class="imagem_telefone">
+                    <p class="numero_telefone">(13) 3513-0377</p>
+                </div>
+                <div class="whatsapp">
+                    <img src="imagens/WhatsApp.png" alt="Telefone" class="imagem_whatsapp">
+                    <p class="numero_telefone">(13) 3232-1021</p>
+                </div>
+                <p class="horario_funcionamento">Segunda a Sexta feira: 8h ás 19h Sábado: 9h ás 13h</p>
+            </div>
+            <div class="localidade" data-loja="2">
+                <p class="titulo_loja">Vila dos Carros</p>
+                <div class="telefone">
+                    <img src="imagens/Telefone.png" alt="Telefone" class="imagem_telefone">
+                    <p class="numero_telefone">(13) 3513-9770</p>
+                </div>
+                <div class="whatsapp">
+                    <img src="imagens/WhatsApp.png" alt="Telefone" class="imagem_whatsapp">
+                    <p class="numero_telefone">(13)97402-5502</p>
+                </div>
+                <p class="horario_funcionamento">Segunda á Sabado: 09h ás 19h</p>
+            </div>
+            <div class="redes_sociais">
+                <a class="espacamento" href="/facebook"><img src="imagens/Facebook.png" alt="facebook"></a>
+                <a class="espacamento" href="/youtube"><img src="imagens/Youtube.png" alt="youtube"></a>
+                <a class="espacamento" href="/instagram"><img src="imagens/Instagram.png" alt="instagram"></a>
+            </div>
+        </div>
+    </div>
+</footer>
 <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
         defer></script>

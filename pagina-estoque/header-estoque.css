@@ -12,8 +12,23 @@
     border: 1px solid #FFFFFF;
 }
 
-.fundo {
-    background-color: #F0F0F0;
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente */
+    z-index: 999; /* Garante que a div cubra outros elementos */
+    display: none; /* Inicialmente oculta */
+}
+
+.menu_aberto__ativo .overlay {
+    display: block; /* Mostra a overlay quando o menu está aberto */
+}
+
+.no-scroll {
+    overflow: hidden;
 }
 
 .menu_aberto {
@@ -52,6 +67,8 @@
     color: #FFFFFF;
 }
 
+
+
 .header_menu {
     cursor: pointer;
     position: relative;
@@ -85,6 +102,9 @@
     cursor: pointer;
     padding-bottom: 40px;
     padding-right: 200px;
+    text-decoration: none;
+    color: white;
+    display: flex;
     
 }
 

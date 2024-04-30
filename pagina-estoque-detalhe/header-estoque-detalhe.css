@@ -86,7 +86,9 @@
     cursor: pointer;
     padding-bottom: 40px;
     padding-right: 200px;
-    
+    color: white;
+    display: block;
+    text-decoration: none; 
 }
 
 .texto_menu_aberto:hover {

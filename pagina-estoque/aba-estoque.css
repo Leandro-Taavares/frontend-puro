@@ -23,6 +23,8 @@
     margin-right: 35px;
     cursor: pointer;
     width: 221px;
+    text-decoration: none;
+    color: black;
 }
 
 .foto-carro-class {

@@ -55,6 +55,8 @@
 
 .telefone {
     display: inline-block;
+    margin-bottom: 2%;
+    margin-right: 5%;
 }
 
 .telefone p {
@@ -87,6 +89,8 @@
 
 .numero_telefone {
     margin-left: 3px !important; 
+    color: white;
+    text-decoration: none;
 }
 
 .horario_funcionamento {

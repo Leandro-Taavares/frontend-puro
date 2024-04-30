@@ -17,7 +17,8 @@
 
 </head>
 
-<body class="fundo">
+<body>
+    <div class="overlay"></div>
     <header class="header">
         <div class="header_menu">
             <div class="barra_cabecalho_1"></div>
@@ -26,15 +27,15 @@
             <p class="menu_texto">MENU</p>
         </div>
         <div class="Logo">
-            <a href="/" title="Doin">
-                <img src="imagens-site/Logo Doin.png" alt="Doin Motors" />
+            <a href="file:///C:/wamp64/www/doin-motors-site/index.html" title="Doin">
+                <img src="imagens-site/Logo Doin Preto.png" alt="Doin Motors" />
             </a>
         </div>
-        <a href="/nosso-estoque" title="NOSSO ESTOQUE" class="nosso_estoque_header">NOSSO ESTOQUE</a>
+        <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque/index.html" title="NOSSO ESTOQUE" class="nosso_estoque_header">NOSSO ESTOQUE</a>
     </header>
     <div class="header_menu_aberto">
-        <p class="texto_menu_aberto">NOSSO ESTOQUE</p>
-        <p class="texto_menu_aberto">VENDA SEU CARRO</p>
+        <a class="texto_menu_aberto" href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque/index.html">NOSSO ESTOQUE</a>
+        <a class="texto_menu_aberto" href="file:///C:/wamp64/www/doin-motors-site/pagina-contato/index.html">CONTATO</a>
         <p class="texto_menu_aberto">FINANCIE</p>
         <p class="texto_menu_aberto">ATACADO</p>
         <p class="texto_menu_aberto">SOBRE</p>
@@ -88,12 +89,12 @@
                 <p class="filtro-tipo">Tipo</p>
                 <div class="filtros-usados-novos">
                     <div class="filtro-novos">
-                        <input type="checkbox" name="Novos" id="Novos" class="checkboxs">
-                        <label for="Novos" class="usados-novos-texto">Novos</label>
+                        <input type="checkbox" name="Novos" id="novos" class="checkboxs">
+                        <label for="novos" class="usados-novos-texto">Novos</label>
                     </div>
                     <div class="filtro-usados">
-                        <input type="checkbox" name="Usados" id="Usados" class="checkboxs">
-                        <label for="Usados" class="usados-novos-texto">Usados</label>
+                        <input type="checkbox" name="Usados" id="usados" class="checkboxs">
+                        <label for="usados" class="usados-novos-texto">Usados</label>
                     </div>
                 </div>
             </div>
@@ -108,16 +109,16 @@
             <div class="border"></div>
             <div class="quarta-aba">
                 <p class="filtro-preco">Preço</p>
-                <input type="text" name="de" id="de" class="filtro-de" placeholder="de">
-                <input type="text" name="ate" id="ate" class="filtro-ate" placeholder="até">
+                <input type="text" name="de" id="de1" class="filtro-de" placeholder="de">
+                <input type="text" name="ate" id="ate1" class="filtro-ate" placeholder="até">
                 <p class="exemplo-esq">ex: 10.000</p>
                 <p class="exemplo-dir">ex: 20.000</p>
             </div>
             <div class="border"></div>
             <div class="quinta-aba">
                 <p class="filtro-quilometragem">Quilometragem</p>
-                <input type="text" name="de" id="de" class="filtro-de" placeholder="de">
-                <input type="text" name="ate" id="ate" class="filtro-ate" placeholder="até">
+                <input type="text" name="de" id="de2" class="filtro-de" placeholder="de">
+                <input type="text" name="ate" id="ate2" class="filtro-ate" placeholder="até">
                 <p class="exemplo-esq">ex: 5.000</p>
                 <p class="exemplo-dir">ex: 15.000</p>
             </div>
@@ -157,7 +158,7 @@
                     <img src="imagens-site/filtrar-mobile.png" alt="icone-filtro" class="filtrar-img-mobile">
                 </div>
                 <div class="estoque-carros">
-                    <div class="carros-anunciados">
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                             <img src="imagens-site/Fiat-Fastback.jpg" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -169,8 +170,8 @@
                                 <p class="ver-mais">VER MAIS</p>
                             </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Fiat-Toro.jpg" alt="" class="foto-carro-class" >
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -182,8 +183,8 @@
                                 <p class="ver-mais">VER MAIS</p>
                             </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Mustang-GT2024.jpg" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -195,8 +196,8 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div>    
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Foto-Carro.png" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -208,8 +209,8 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Foto-Carro.png" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -221,8 +222,8 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Foto-Carro.png" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -234,8 +235,8 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Foto-Carro.png" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -247,8 +248,8 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Foto-Carro.png" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -260,8 +261,8 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Foto-Carro.png" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -273,8 +274,8 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Foto-Carro.png" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -286,8 +287,8 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Foto-Carro.png" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -299,8 +300,8 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Foto-Carro.png" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -312,8 +313,8 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Foto-Carro.png" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -325,8 +326,8 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Foto-Carro.png" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -338,8 +339,8 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div> 
                         </div>
-                    </div>
-                    <div class="carros-anunciados">
+                    </div></a>
+                    <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque-detalhe/index.html"><div class="carros-anunciados">
                         <img src="imagens-site/Foto-Carro.png" alt="" class="foto-carro-class">
                         <div class="descricao-carro">
                             <p class="nome-carro">Audi A3</p>
@@ -351,7 +352,7 @@
                             <p class="ver-mais">VER MAIS</p>
                         </div> 
                         </div>
-                    </div>
+                    </div></a>
                 </div>
             </div>
     </section>
@@ -362,10 +363,10 @@
                 <nav>
                     <ul class="topicos_rodape">
                         <li>
-                            <a href="/nosso-estoque" title="NOSSO ESTOQUE">NOSSO ESTOQUE</a>
+                            <a href="file:///C:/wamp64/www/doin-motors-site/pagina-estoque/index.html" title="NOSSO ESTOQUE">NOSSO ESTOQUE</a>
                         </li>
                         <li>
-                            <a href="/venda-seu-carro" title="VENDA SEU CARRO">VENDA SEU CARRO</a>
+                            <a href="file:///C:/wamp64/www/doin-motors-site/pagina-contato/index.html" title="CONTATO">CONTATO</a>
                         </li>
                         <li>
                             <a href="/financie" title="financie">FINANCIE</a>
@@ -385,11 +386,11 @@
                     <p class="titulo_loja">Shopping The Blue</p>
                     <div class="telefone">
                         <img src="imagens-site/Telefone.png" alt="Telefone" class="imagem_telefone">
-                        <p class="numero_telefone">(13) 3513-0377</p>
+                        <a class="numero_telefone" href="tel:+5535130377">(13) 3513-0377</a>
                     </div>
                     <div class="whatsapp">
                         <img src="imagens-site/WhatsApp.png" alt="Telefone" class="imagem_whatsapp">
-                        <p class="numero_telefone">(13) 3232-1021</p>
+                        <a class="numero_telefone" href="tel:+551332321021">(13) 3232-1021</a>
                     </div>
                     <p class="horario_funcionamento">Segunda a Sexta feira: 8h ás 19h Sábado: 9h ás 13h</p>
                 </div>
@@ -397,22 +398,23 @@
                     <p class="titulo_loja">Vila dos Carros</p>
                     <div class="telefone">
                         <img src="imagens-site/Telefone.png" alt="Telefone" class="imagem_telefone">
-                        <p class="numero_telefone">(13) 3513-9770</p>
+                        <a class="numero_telefone" href="tel:+551335139770">(13) 3513-9770</a>
                     </div>
                     <div class="whatsapp">
                         <img src="imagens-site/WhatsApp.png" alt="Telefone" class="imagem_whatsapp">
-                        <p class="numero_telefone">(13)97402-5502</p>
+                        <a class="numero_telefone" href="tel:+5513974025502">(13)97402-5502</a>
                     </div>
                     <p class="horario_funcionamento">Segunda á Sabado: 09h ás 19h</p>
                 </div>
                 <div class="redes_sociais">
-                    <a class="espacamento" href="/facebook"><img src="imagens-site/Facebook.png" alt="facebook"></a>
-                    <a class="espacamento" href="/youtube"><img src="imagens-site/Youtube.png" alt="youtube"></a>
-                    <a class="espacamento" href="/instagram"><img src="imagens-site/Instagram.png" alt="instagram"></a>
+                    <a class="espacamento" href="https://www.facebook.com/doinmotors"><img src="imagens-site/Facebook.png" alt="facebook"></a>
+                    <a class="espacamento" href="https://www.youtube.com/c/DoinMotors"><img src="imagens-site/Youtube.png" alt="youtube"></a>
+                    <a class="espacamento" href="https://www.instagram.com/doinmotors/"><img src="imagens-site/Instagram.png" alt="instagram"></a>
                 </div>
             </div>
         </div>
     </footer>
     <script type="text/javascript" src="header.estoque.js"></script>
     <script type="text/javascript" src="filtro-estoque-mobile.js"></script>
+    <script type="text/javascript" src="filtro-estoque.js"></script>
 </body>

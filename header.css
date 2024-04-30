@@ -58,6 +58,25 @@
     cursor: pointer;
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor escura para cobrir a tela */
+    z-index: 9999; /* Garante que fique sobre todos os outros elementos */
+    display: none; /* Inicialmente invisível */
+}
+
+.menu_aberto__ativo .overlay {
+    display: block; /* Mostra a overlay quando o menu está aberto */
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
 .header_menu:target {
     color: #C1383D;
 }
@@ -79,13 +98,16 @@
     backdrop-filter: blur(20px) saturate(1.8);
     background: rgba(0,0,0,0.6);
     max-width: 1200px;
+    overflow: hidden;
 }
 
 .texto_menu_aberto  {
     cursor: pointer;
     padding-bottom: 40px;
     padding-right: 200px;
-    
+    text-decoration: none;
+    color: white;
+    display: block;
 }
 
 .texto_menu_aberto:hover {

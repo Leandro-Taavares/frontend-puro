@@ -132,7 +132,7 @@
     font-family: 'Roboto';
 }
 
-.telefone {
+.telefone-informações {
     display: flex;
     padding: 10% 0% 10% 2%;
     align-items: center;
@@ -204,32 +204,37 @@
     position: fixed;
 }
 
+.seta-mobile {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .aba-informações-carros {
-        width: 100%;
+        width: 95%;
+    }
 
+    .seta-mobile {
+        width: 50px;
+        right: 5px;
+        position: absolute;
+        z-index: 2;
+        display: block
     }
 
     .informações-carro {
         width: 100%;
     }
 
-    .cambio, .Ano, .Km, .Cor, .Troca, .Dono {
-        margin-right: 22%;
-        margin-bottom: 10%;
-    }
-
-    .Km {
-        margin-right: 31%;
-    }
-
-    .itens-opcionais-terceiro-coluna, .itens-opcionais-quarta-coluna {
-        display: none;
-    }
-
     .informações-carro-2 {
-        right: 0;
+        display: none;
+        transition: all 0.5s;
+        right: -100vw;
     }
+
+    .cambio, .Ano, .Km, .Cor, .Troca, .Dono {
+        padding-top: 2%;
+    }
+
 
 }
 
@@ -237,11 +242,28 @@
 
     .aba-informações-carros {
         width: 95%;
-        margin: 0 auto;
+    }
+
+    .seta-mobile {
+        width: 50px;
+        right: 5px;
+        position: absolute;
+        z-index: 2;
+        display: block
+    }
+
+    .informações-carro {
+        width: 100%;
     }
 
     .informações-carro-2 {
         display: none;
+        transition: all 0.5s;
+        right: -300vw;
+    }
+
+    .cambio, .Ano, .Km, .Cor, .Troca, .Dono {
+        padding-top: 2%;
     }
 
 }

@@ -1,0 +1,12 @@
+#map {
+    width: 50%;
+    filter: brightness();
+    height: 100%;
+}
+
+@media  (max-width: 768px) {
+    #map {
+        width: 100%;
+        height: 45vh;
+    }
+}

@@ -55,6 +55,14 @@
 
 .telefone_footer {
     display: inline-block;
+    margin-bottom: 2%;
+    margin-right: 5%;
+}
+
+.telefone {
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-right: 5%;
 }
 
 .telefone_footer p {
@@ -87,6 +95,8 @@
 
 .numero_telefone {
     margin-left: 3px !important; 
+    text-decoration: none;
+    color: white;
 }
 
 .horario_funcionamento {

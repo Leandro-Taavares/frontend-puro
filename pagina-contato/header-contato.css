@@ -1,12 +1,19 @@
 .header {
     position: fixed;
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    top: 15px; 
-    left: 10%;
     z-index: 3;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: white;
+    box-shadow: 0px 0px 10px #888888;
+    border: 1px solid #FFFFFF;
+}
+
+.fundo {
+    background-color: #F0F0F0;
 }
 
 .menu_aberto {
@@ -14,24 +21,13 @@
 
 }
 
-.borda_header{
-    margin-top: 78px;
-    border-top: 1px groove white;
-    position: fixed;
-    z-index: 2;
-    left: 10%;
-    width: 80%;
-}
-
-
-
 .menu_texto {
     float: right;
     font-family: roboto;
-    color: white;
-    font-size: 15px;
+    color: #000000;
+    font-size: 12px;
     padding-top: 2px;
-    padding-left: 20px;
+    padding-left: 207px; 
     letter-spacing: 1px;
     font-weight: 500;
     margin-left: 5px;
@@ -40,22 +36,26 @@
 .nosso_estoque_header {
     text-decoration: none;
     font-family: roboto;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 1px;
-    color: white;
-    border: 1px solid white;
+    color: #3E3E3E;
+    border: 1px solid #3E3E3E;
     padding: 10px;
     cursor: pointer;
+    margin-right: 200px;
 }
 
 .nosso_estoque_header:hover {
     transition: 300ms linear;
     background-color: #C1383D;
+    color: #FFFFFF;
 }
 
 .header_menu {
     cursor: pointer;
+    position: relative;
+    display: inline;
 }
 
 .header_menu:target {
@@ -74,7 +74,7 @@
     font-family: roboto;
     padding-bottom: 35%;
     z-index: 2;
-    left: -170vw;
+    left: -130vw;
     transition: all 0.5s;
     backdrop-filter: blur(20px) saturate(1.8);
     background: rgba(0,0,0,0.6);
@@ -85,8 +85,11 @@
     cursor: pointer;
     padding-bottom: 40px;
     padding-right: 200px;
-    
+    color: white;
+    display: block;
+    text-decoration: none; 
 }
+
 
 .texto_menu_aberto:hover {
     transition: 0.2ms;
@@ -94,31 +97,36 @@
 }
 
 .menu_aberto__ativo {
-    left: 0;
+    display: inline-block;
+    left: 0;    
+    position: absolute;
 }
 
 .barra_cabecalho_1 {
-    border-top: 1px solid white;
+    border-top: 1px solid #000000;
     position: absolute;
     z-index: 1;
-    width: 1%;
-    margin-top: 4px;
+    width: 16px;
+    margin-top: 3px;
+    left: 190px;
 }
 
 .barra_cabecalho_2 {
-    border-top: 1px solid white;
+    border-top: 1px solid #000000;
     position: absolute;
     z-index: 1;
-    width: 1%;
-    margin-top: 9px;
+    width: 16px;
+    margin-top: 7px;
+    left: 190px;
 }
 
 .barra_cabecalho_3 {
-    border-top: 1px solid white;
+    border-top: 1px solid #000000;
     position: absolute;
     z-index: 1;
-    width: 1%;
-    margin-top: 14px;
+    width: 16px;
+    margin-top: 11px;
+    left: 190px;
 }
 
 .barra_cabecalho_1.ativo {
@@ -129,53 +137,34 @@
 .barra_cabecalho_3.ativo {
     margin-top: 7px;
     transform: rotate(-40deg);
-}
+}  
 
 @media (max-width: 768px) {
- 
+
     .header {
-        content: "";
-        top: 0;
-        left: 0;
-        bottom: 0%;
-        right: 0;
-        background: rgba(0, 0, 0, 0.4);
-        display: block;
-        width: unset;
-        height: fit-content;
-        border-bottom: 2px groove white;
-    }
-
-    .Logo {
-        padding-top: 1%;
-        padding-left: 40%;
-    }
-
-    .header_menu {
-        padding-left: 44%;
-        padding-top: 1%;
-    }
-
-    .nosso_estoque_header {
-        font-size: 10px;
-        padding: 7px;
-        margin-left: 40%;
-        display: inline-block;
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
-
-    .borda_header {
-        display: none;
-    }
-
-    .menu_texto {
-        float: none;
-        padding-left: 5%;
+        padding-top: 2%;
     }
 
     .barra_cabecalho_1, .barra_cabecalho_2, .barra_cabecalho_3 {
-        width: 3%;
+        left: 3%;
+    }
+
+    .menu_texto {
+        font-size: 15px;
+        padding-top: 1px;
+        margin-left: unset;
+        padding-left: 22px;
+    }
+
+    .Logo {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .nosso_estoque_header {
+        margin-top: 1%;
+        padding: 7px;
+        margin-right: 1%;
     }
 
     .menu_aberto__ativo {
@@ -193,6 +182,49 @@
         padding-bottom: 10%;
     }
 
-    
 }
 
+@media (min-width: 769px) and (max-width: 1439px) {
+
+    .header {
+        padding-top: 2%;
+    }
+
+    .barra_cabecalho_1, .barra_cabecalho_2, .barra_cabecalho_3 {
+        left: 3%;
+    }
+
+    .menu_texto {
+        font-size: 15px;
+        padding-top: 1px;
+        margin-left: unset;
+        padding-left: 22px;
+    }
+
+    .Logo {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .nosso_estoque_header {
+        margin-top: 1%;
+        padding: 7px;
+        margin-right: 1%;
+    }
+
+    .menu_aberto__ativo {
+        width: 100%;
+        padding-top: 30%;
+        max-width: unset;
+        padding-left: unset;
+        padding-bottom: unset;
+
+    }
+
+    .texto_menu_aberto {
+        padding-right: 0%;
+        padding-left: 30%;
+        padding-bottom: 10%;
+    }
+
+}
