@@ -88,6 +88,11 @@
     border-bottom: 1px solid #b8b8b8;
 }
 
+.informações-carro-2.fixed {
+    top: 905px;
+    position: absolute;
+}
+
 .informações-carro-2 {
     position: fixed;
     right: 395px;
@@ -246,7 +251,7 @@
 
     .seta-mobile {
         width: 50px;
-        right: 5px;
+        right: 2%;
         position: absolute;
         z-index: 2;
         display: block

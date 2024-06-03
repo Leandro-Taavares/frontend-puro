@@ -1,9 +1,14 @@
 {
-    "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Fastback.jpg",
-    "nome": "Audi A3",
-    "transmissao": "2.0 Manual",
+    "imagem":[
+        "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Fastback.jpg",
+        "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Fastback.jpg",
+        "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Fastback.jpg",
+        "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Fastback.jpg"
+    ],
+    "nome": "Audi A3 2.8 16V TURBO DIESEL LS CD 4X4 MANUAL",
+    "transmissao": "Automatizado",
     "preco": 130000.00,
-    "ano": "2017/2018",
+    "ano": "2021/2022",
     "km": 50000,
     "cor": "Azul",
     "troca": true,

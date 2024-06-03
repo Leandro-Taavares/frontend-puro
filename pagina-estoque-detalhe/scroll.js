@@ -1,13 +1,13 @@
-const informaçõesCarros = document.querySelectorAll ('.informações-carro-2')
-
 addEventListener("scroll", (event) => {
-var top = window.scrollY / document.documentElement.scrollTop;
+    var top = window.scrollY / document.documentElement.scrollTop;
 
-if(top > 500) {
-    document.querySelectorAll('.informações-carro-2').addClass('.fixed');
-} else {
-    document.querySelectorAll ('.informações-carro-2').removeClass('.fixed');
-}
+    console.log(top);
+
+    if(window.scrollY > 532) {
+        document.querySelector('.informações-carro-2').classList.add('fixed');
+    } else {
+        document.querySelector('.informações-carro-2').classList.remove('fixed');
+    }
 });
 
 
