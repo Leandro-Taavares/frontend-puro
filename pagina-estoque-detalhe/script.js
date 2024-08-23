@@ -1,6 +1,6 @@
 var ajax = new XMLHttpRequest();
 
-ajax.open("GET", "http://localhost/frontend-puro/pagina-estoque-detalhe/Data/data.json");
+ajax.open("GET", "https://leandro-taavares.github.io/frontend-puro/pagina-estoque-detalhe/data/data.json");
 
 ajax.responseType = "json";
 
