@@ -119,7 +119,15 @@
             "preco": 130000.00,
             "ano": "2017/2018",
             "km": 50000
+        },
+        {
+            "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Fastback.jpg",
+            "nome": "Audi A3",
+            "transmissao": "2.0 Manual",
+            "preco": 130000.00,
+            "ano": "2017/2018",
+            "km": 50000
         }
     ],
-    "quantidade": 15
+    "quantidade": 16
 }
