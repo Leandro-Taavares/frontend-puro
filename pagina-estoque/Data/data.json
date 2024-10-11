@@ -2,27 +2,27 @@
     "resultado": [
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Fastback.jpg",
-            "nome": "Audi A3",
-            "transmissao": "2.0 Manual",
-            "preco": 130000.00,
-            "ano": "2017/2018",
-            "km": 50000
+            "nome": "Fiat Fastback",
+            "transmissao": "1.3 Automatico",
+            "preco": 110000.00,
+            "ano": "2022/2022",
+            "km": 1000
         },
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Toro.jpg",
-            "nome": "Audi A3",
+            "nome": "Fiat Toro",
             "transmissao": "2.0 Manual",
-            "preco": 130000.00,
-            "ano": "2017/2018",
-            "km": 50000
+            "preco": 100000.00,
+            "ano": "2021/2022",
+            "km": 30000
         },
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Mustang-GT2024.jpg",
-            "nome": "Audi A3",
-            "transmissao": "2.0 Manual",
-            "preco": 130000.00,
-            "ano": "2017/2018",
-            "km": 50000
+            "nome": "Mustang GT",
+            "transmissao": "2.0 Automatico",
+            "preco": 200000.00,
+            "ano": "2023/2024",
+            "km": 1000
         },
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Foto-Carro.png",
@@ -42,27 +42,27 @@
         },
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Fastback.jpg",
-            "nome": "Audi A3",
-            "transmissao": "2.0 Manual",
-            "preco": 130000.00,
-            "ano": "2017/2018",
-            "km": 50000
+            "nome": "Fiat Fastback",
+            "transmissao": "1.3 Automatico",
+            "preco": 110000.00,
+            "ano": "2022/2022",
+            "km": 1000
         },
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Toro.jpg",
-            "nome": "Audi A3",
+            "nome": "Fiat Toro",
             "transmissao": "2.0 Manual",
-            "preco": 130000.00,
-            "ano": "2017/2018",
-            "km": 50000
+            "preco": 100000.00,
+            "ano": "2021/2022",
+            "km": 30000
         },
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Mustang-GT2024.jpg",
-            "nome": "Audi A3",
-            "transmissao": "2.0 Manual",
-            "preco": 130000.00,
-            "ano": "2017/2018",
-            "km": 50000
+            "nome": "Mustang GT",
+            "transmissao": "2.0 Automatico",
+            "preco": 200000.00,
+            "ano": "2023/2024",
+            "km": 1000
         },
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Foto-Carro.png",
@@ -82,27 +82,27 @@
         },
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Fastback.jpg",
-            "nome": "Audi A3",
-            "transmissao": "2.0 Manual",
-            "preco": 130000.00,
-            "ano": "2017/2018",
-            "km": 50000
+            "nome": "Fiat Fastback",
+            "transmissao": "1.3 Automatico",
+            "preco": 110000.00,
+            "ano": "2022/2022",
+            "km": 1000
         },
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Toro.jpg",
-            "nome": "Audi A3",
+            "nome": "Fiat Toro",
             "transmissao": "2.0 Manual",
-            "preco": 130000.00,
-            "ano": "2017/2018",
-            "km": 50000
+            "preco": 100000.00,
+            "ano": "2021/2022",
+            "km": 30000
         },
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Mustang-GT2024.jpg",
-            "nome": "Audi A3",
-            "transmissao": "2.0 Manual",
-            "preco": 130000.00,
-            "ano": "2017/2018",
-            "km": 50000
+            "nome": "Mustang GT",
+            "transmissao": "2.0 Automatico",
+            "preco": 200000.00,
+            "ano": "2023/2024",
+            "km": 1000
         },
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Foto-Carro.png",
@@ -122,11 +122,11 @@
         },
         {
             "imagem": "https://leandro-taavares.github.io/frontend-puro/pagina-estoque/imagens-site/Fiat-Fastback.jpg",
-            "nome": "Audi A3",
-            "transmissao": "2.0 Manual",
-            "preco": 130000.00,
-            "ano": "2017/2018",
-            "km": 50000
+            "nome": "Fiat Fastback",
+            "transmissao": "1.3 Automatico",
+            "preco": 110000.00,
+            "ano": "2022/2022",
+            "km": 1000
         }
     ],
     "quantidade": 16
